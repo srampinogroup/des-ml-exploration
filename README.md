@@ -26,6 +26,11 @@ tasks, using SMILES to represent the molecules. They trained the
 model jointly on DES tasks and tasks related to the well-established
 and much larger QM9[^qm9] dataset.
 
+* `DATASET/DES1.csv`: Luu et al.[^1] dataset,
+* `DATASET/DES_Melting.csv`: Odegova et al.[^odegova] dataset,
+* `DATASET/DES_TMELT.csv`: our combined dataset,
+* `DATASET/DES_TMELT.ipynb`: code used for the merging.
+
 ## Our results
 
 For illustrative purposes, and building on the data available from
