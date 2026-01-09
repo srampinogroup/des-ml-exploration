@@ -26,8 +26,10 @@ tasks, using SMILES to represent the molecules. They trained the
 model jointly on DES tasks and tasks related to the well-established
 and much larger QM9[^qm9] dataset.
 
-* `DATASET/DES1.csv`: Luu et al.[^1] dataset,
+### In this repository
+
 * `DATASET/DES_Melting.csv`: Odegova et al.[^odegova] dataset,
+* `DATASET/DES1.csv`: Luu et al.[^luu] dataset,
 * `DATASET/DES_TMELT.csv`: our combined dataset,
 * `DATASET/DES_TMELT.ipynb`: code used for the merging.
 
@@ -137,6 +139,12 @@ Kelvin.
 * SVM: support vector machine
 * KNN: K-nearest neighbors
 * MLP: multilayer perceptron
+
+### In this repository
+
+The source can be found in the `src` directory. Please note that
+most of the code is an adaptation of the already existing one made
+by Odegova at al.[^odegova], link to repository in bibliography.
 
 
 [^odegova]: Odegova, V.; Lavrinenko, A.; Rakhmanov, T.; Sysuev, G.;
